@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch, MagicMock
 import requests
-from app.main import download_image, fetch_image_url, worker
+from app.app import download_image, fetch_image_url, worker
 
 
 class TestMyDogImagesProject(unittest.TestCase):
